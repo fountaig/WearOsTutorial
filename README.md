@@ -1,9 +1,11 @@
 ## Welcome the Wear OS Tutorial
 
+### OverView
 With wear OS you can create you very own android watch app and give you access to hardware such as sensors and the GPU. Android watch apps are like other apps but are slightly differnet in the design and they can function. This tutorial will be the bases to get started with your new app.
 
 ### Setting up the environment
-
+    1. download the newest version of android studio
+    2. Use the SDK manager to confirm that you have the latest version
 
 
 
@@ -29,15 +31,6 @@ With wear OS you can create you very own android watch app and give you access t
 ### Set up the emulator and run the app
 
 
-### debugging and running on your own watch
 
-
-### Whats different watch vs mobileApp
-
-
-### Other features
-
-
-### Other resources
 
 
