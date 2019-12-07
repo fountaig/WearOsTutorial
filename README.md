@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+## Welcome the Wear OS Tutorial
 
-You can use the [editor on GitHub](https://github.com/fountaig/WearOsTutorial/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+With wear OS you can create you very own android watch app and give you access to hardware such as sensors and the GPU. Android watch apps are like other apps but are slightly differnet in the design and they can function. This tutorial will be the bases to get started with your new app.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Setting up the environment
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Creating a new Wear OS application
+1. Click File>New>New Project
 
-- Bulleted
-- List
+2. Once on the Configuration screen accept the default values and click Next
 
-1. Numbered
-2. List
+3. On the "Target Android Devices screen, pick only the "Wear" Option,
+    and for the minimum SDK pick the latest available option. Then hit Next.
+    
+4.On the "ADD an Activity to Wear screen, pick "Blank Wear Activity and hit Next.
 
-**Bold** and _Italic_ and `Code` text
+5.On the "Customize the Activity" click "Finish"
+  and boom android studio created a new Wear OS app for you
+ 
+6. Now we have to make a few changes to the build.gradle
+  In the build.gradle for the app module
+  confirm the compile SDK is set to 26
+  confirm the target SDK is set to 26
+  Update the dependecies section add these lines 
 
-[Link](url) and ![Image](src)
-```
+### Set up the emulator and run the app
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### debugging and running on your own watch
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fountaig/WearOsTutorial/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Whats different watch vs mobileApp
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Other features
+
+
+### Other resources
+
+
